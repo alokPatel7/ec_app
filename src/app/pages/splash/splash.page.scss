@@ -1,0 +1,42 @@
+ion-header {
+  ion-toolbar {
+    --background: transparent;
+  }
+}
+
+.splash-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  opacity: 1;
+}
+
+.splash-logo {
+  max-width: 70%;
+  height: auto;
+}
+
+.app-name {
+  animation: focus-in-contract-bck 1s cubic-bezier(.25, .46, .45, .94) both;
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+@keyframes focus-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    transform: translateZ(300px);
+    filter: blur(12px);
+    opacity: 0
+  }
+
+  100% {
+    transform: translateZ(12px);
+    filter: blur(0);
+    opacity: 1
+  }
+}

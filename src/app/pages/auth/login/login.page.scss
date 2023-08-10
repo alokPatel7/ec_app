@@ -1,0 +1,70 @@
+.login-page {
+  --ion-safe-area-top: 0;
+  /* Remove top safe area padding */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  .main-container {
+    // padding: 0 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .login-title {
+    text-align: center;
+    margin-bottom: 20px;
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 5px;
+    }
+
+    p {
+      color: #999;
+      font-size: 14px;
+    }
+  }
+
+  .input-field {
+    // --padding-start: 10px;
+    // --padding-end: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+
+    // ion-input {
+    //   --padding-start: 10px;
+    //   --padding-end: 10px;
+    // }
+  }
+
+
+    ion-label {
+      color: #007bff;
+      text-align: end;
+      font-size: 14px;
+    }
+
+
+  .login-button {
+    margin-top: 20px;
+    width: 90%;
+  }
+
+  .new-user {
+    margin-top: 20px;
+
+    p {
+      font-size: 14px;
+
+      span {
+        color: #007bff;
+        cursor: pointer;
+      }
+    }
+  }
+}
