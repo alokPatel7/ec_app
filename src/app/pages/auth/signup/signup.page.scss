@@ -1,0 +1,49 @@
+.ellipse-container-one {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: rgb(177, 235, 232, 0.7);
+  top: -100px;
+  position: absolute;
+  left: -7px;
+}
+
+.ellipse-container-two {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: rgb(177, 235, 232, 0.7);
+  top: -24px;
+  position: absolute;
+  left: -77px
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  top: 27%;
+
+  .form-control {
+    width: 90%;
+    margin-top: 10px;
+  }
+
+  .action {
+    margin-top: 10%;
+    width: 90%;
+
+    .link-msg {
+      margin-top: 5%;
+      text-align: center;
+      font-size: 18px;
+    }
+  }
+
+}
+
+a {
+  text-decoration: none;
+}

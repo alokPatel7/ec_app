@@ -1,13 +1,36 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>signup</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">signup</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <div class="ellipse-container-one">
+  </div>
+  <div class="ellipse-container-two">
+  </div>
+
+  <div class="form-container">
+    <h3>Welcome Onboard!!</h3>
+    <div class="tag-line">Create new account...</div>
+
+    <div class="form-control">
+      <ion-input type="text" label="Full Name" labelPlacement="floating" errorText="Invalid full name"></ion-input>
+    </div>
+
+    <div class="form-control">
+      <ion-input type="email" label="Email" labelPlacement="floating" errorText="Invalid email"></ion-input>
+    </div>
+
+    <div class="form-control">
+      <ion-input type="password" label="Password" labelPlacement="floating" errorText="Invalid password"></ion-input>
+    </div>
+
+    <div class="form-control">
+      <ion-input type="password" label="Confirm Password" labelPlacement="floating"
+        errorText="Invalid email"></ion-input>
+    </div>
+
+    <div class="action">
+      <ion-button type="button" expand="full">Sign Up</ion-button>
+
+      <div class="link-msg">
+        <span>Already have an account ?</span> <a [routerLink]="['/login']"> Sign In</a>
+      </div>
+    </div>
+  </div>
 </ion-content>

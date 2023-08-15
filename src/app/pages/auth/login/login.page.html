@@ -1,23 +1,27 @@
-<ion-content class="login-page">
-  <div class="main-container">
-    <div class="login-title">
-      <h1>Login</h1>
-      <p>Welcome back</p>
+<ion-content [fullscreen]="true">
+  <div class="ellipse-container-one">
+  </div>
+  <div class="ellipse-container-two">
+  </div>
+
+  <div class="form-container">
+    <h3>Welcome back!!</h3>
+    <div class="tag-line">Login by email & password</div>
+
+    <div class="form-control">
+      <ion-input type="email" label="Email" labelPlacement="floating" errorText="Invalid email"></ion-input>
     </div>
-    <ion-item class="input-field">
-      <ion-icon name="person" slot="start"></ion-icon>
-      <ion-input type="text" placeholder="Username"></ion-input>
-    </ion-item>
-    <ion-item class="input-field">
-      <ion-icon name="key" slot="start"></ion-icon>
-      <ion-input type="password" placeholder="Password"></ion-input>
-    </ion-item>
-    <!-- <ion-item class="forget-password"> -->
-      <ion-label>Forget Password</ion-label>
-    <!-- </ion-item> -->
-    <ion-button expand="full" class="login-button">Login</ion-button>
-    <div class="new-user">
-      <p>New user? <span>Sign up</span></p>
+
+    <div class="form-control">
+      <ion-input type="password" label="Password" labelPlacement="floating" errorText="Invalid password"></ion-input>
+    </div>
+
+    <div class="action">
+      <ion-button type="button" expand="full">Sign In</ion-button>
+
+      <div class="link-msg">
+        <span>New User ?</span><a [routerLink]="['/signup']"> Sign Up</a>
+      </div>
     </div>
   </div>
 </ion-content>

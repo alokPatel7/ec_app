@@ -1,70 +1,49 @@
-.login-page {
-  --ion-safe-area-top: 0;
-  /* Remove top safe area padding */
+.ellipse-container-one {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: rgb(177, 235, 232, 0.7);
+  top: -100px;
+  position: absolute;
+  left: -7px;
+}
+
+.ellipse-container-two {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: rgb(177, 235, 232, 0.7);
+  top: -24px;
+  position: absolute;
+  left: -77px
+}
+
+.form-container {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 27%;
 
-  .main-container {
-    // padding: 0 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  .form-control {
+    width: 90%;
+    margin-top: 10px;
   }
 
-  .login-title {
-    text-align: center;
-    margin-bottom: 20px;
-
-    h1 {
-      font-size: 24px;
-      margin-bottom: 5px;
-    }
-
-    p {
-      color: #999;
-      font-size: 14px;
-    }
-  }
-
-  .input-field {
-    // --padding-start: 10px;
-    // --padding-end: 10px;
-    margin-bottom: 10px;
+  .action {
+    margin-top: 10%;
     width: 90%;
 
-    // ion-input {
-    //   --padding-start: 10px;
-    //   --padding-end: 10px;
-    // }
-  }
-
-
-    ion-label {
-      color: #007bff;
-      text-align: end;
-      font-size: 14px;
-    }
-
-
-  .login-button {
-    margin-top: 20px;
-    width: 90%;
-  }
-
-  .new-user {
-    margin-top: 20px;
-
-    p {
-      font-size: 14px;
-
-      span {
-        color: #007bff;
-        cursor: pointer;
-      }
+    .link-msg {
+      margin-top: 5%;
+      text-align: center;
+      font-size: 18px;
     }
   }
+
+}
+
+a {
+  text-decoration: none;
 }

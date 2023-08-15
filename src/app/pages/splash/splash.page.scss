@@ -40,3 +40,23 @@ ion-header {
     opacity: 1
   }
 }
+
+.ellipse-container-one {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: rgb(177, 235, 232, 0.7);
+  top: -100px;
+  position: absolute;
+  left: -7px;
+}
+
+.ellipse-container-two {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: rgb(177, 235, 232, 0.7);
+  top: -24px;
+  position: absolute;
+  left: -77px
+}
