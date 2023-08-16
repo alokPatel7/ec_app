@@ -26,22 +26,25 @@
   position: absolute;
   top: 27%;
 
-  .form-control {
-    width: 90%;
-    margin-top: 10px;
-  }
-
-  .action {
-    margin-top: 10%;
+  form {
     width: 90%;
 
-    .link-msg {
-      margin-top: 5%;
-      text-align: center;
-      font-size: 18px;
+    .form-control {
+      width: 90%;
+      margin-top: 10px;
+    }
+
+    .action {
+      margin-top: 10%;
+      width: 90%;
+
+      .link-msg {
+        margin-top: 5%;
+        text-align: center;
+        font-size: 18px;
+      }
     }
   }
-
 }
 
 a {
